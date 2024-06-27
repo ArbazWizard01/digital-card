@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-container {
+  background-color: #161619;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.instagram {
+  background-color: #161619;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.github {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.facebook {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.discord {
+  padding: 10px;
+  cursor: pointer;
+}

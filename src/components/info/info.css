@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.info-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    background-color: #1A1B21;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.my-image{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.my-name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.my-profession{
+    font-size:smaller;
+    color: #F3BF99;
+}
+
+.my-mail{
+    font-size: x-small;
+    color: #F5F5F5;
+}
+
+.btn-cntnr{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.mail-btn {
+    text-align: center;
+    background-color: #fff;
+    color: #374151;
+    height: 36px;
+    width: 100px;
+    font-size: small;
+    border-radius: 10px;
+    transition: 400ms;
+}
+.mail-btn:hover{
+    border: 3px solid #1766c1;
+    font-size:x-small;
+    border-radius: 15px;
+}
+.mail-icon{
+    height: 16px;
+    width: 20px;
+    padding-top: 5px;
+    object-fit: contain;
+}
+
+.linkedin-btn{
+    text-align: center;
+    background-color: #5093E2;
+    color: #fff;
+    height: 36px;
+    width: 100px;
+    font-size: small;
+    border-radius: 10px;
+    border-color: #1A1B21;
+    transition: 400ms;
+}
+.linkedin-btn:hover{
+    border-color: aliceblue;
+    border-radius: 15px;
+    font-size: x-small
+}
+
+.linkedin-icon{
+    margin-bottom: -3px;
+    margin-left: -5px;
+}
